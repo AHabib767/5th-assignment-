@@ -1,0 +1,392 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+body{
+	background: #f6f9f9;
+	font-family: 'Lato', sans-serif;
+}
+     /*Header section*/
+header{
+	width: 100%;
+	float: left;
+	padding: 27px 0px;
+}
+     /*Banner section*/
+.banner{
+	width: 100%;
+	float: left;
+	background:url(../img/banner.jpg)no-repeat;
+	background-size: cover;
+	padding: 27px 0px;
+
+}
+.banner-content{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+.banner-content h2{
+	font-size: 115px;
+    color: white;
+    font-weight: 700;
+
+}
+.banner-content span{
+    border-bottom: 2px solid #15a4fa;
+    display: block;
+    width: 75%;
+    margin: 20px auto;
+    margin-bottom: 35px;
+}
+.banner-content h5{
+	color: white;
+	font-size: 15px;
+	font-weight: 400;
+	margin-bottom: 55px;
+}
+.btn{
+	background: none;
+    border: 1px solid#15fa1c;
+    padding: 14px 22px;
+    font-size: 18px;
+}
+.icon{
+	font-size: 40px;
+	color: white;
+	margin-top: 120px;
+	margin-bottom: 40px;
+color: #a7a8a8;
+}
+.fa.fa-angle-down{
+	color: white;
+	}
+     /*About section*/
+.about{
+	width: 100%;
+	float: left;
+	padding: 27px 0px;
+	background: #f6f9f9;
+}
+.about-content{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.about-content h2{
+	margin: 26px;
+	font-weight: 400;
+
+}
+.about-content p{
+	color: #a7a8a8;
+	margin-bottom: 45px;
+	line-height: 30px;
+}
+     /*Service section*/
+.service{
+	width: 100%;
+	float: left;
+	padding: 27px 0px;
+	background: #ffffff;
+}
+.optimized{
+	width:33.3%;
+	float: left;
+	margin: 0 auto; 
+}
+.optimized-icon{
+	background: #48baff;
+ 	width: 80px;
+ 	height: 80px;
+ 	line-height: 80px;
+ 	margin: 0 auto;
+ 	font-size: 37px;
+ 	color: white;
+ 	text-align: center;
+ 	position: relative;
+}
+.optimized-icon::after{
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: #5fc3ff;
+    right: 0;
+    opacity: .4;
+}
+.optimized h3{
+	margin: 18px;
+	font-weight: 700;
+	font-size: 15px;
+	text-align: center;
+}
+.optimized p{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 12px;
+	width: 60%;
+}
+
+.minimal{
+	width:33.3%;
+	float: left;
+	margin: 0 auto;
+	text-align: center; 
+}
+.minimal-icon{
+	background: #48baff;
+ 	width: 80px;
+ 		height: 80px;
+ 	line-height: 80px;
+ 	margin: 0 auto;
+ 	font-size: 37px;
+ 	color: white;
+ 	position: relative;
+}
+.minimal-icon::after{
+	content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: #5fc3ff;
+    right: 0;
+    opacity: .4;
+}
+.minimal h3{
+	margin: 18px;
+	font-weight: 700;
+	font-size: 15px;
+}
+.minimal p{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 12px;
+	width: 60%;
+}
+.font-awesome{
+	width:33.3%;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+}
+.font-awesome-icon::after{
+	content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: #5fc3ff;
+    right: 0;
+    opacity: .4;
+}
+.font-awesome-icon{
+	background: #48baff;
+ 	width: 80px;
+ 	height: 80px;
+ 	line-height: 80px;
+ 	margin: 0 auto;
+ 	font-size: 37px;
+ 	color: white;
+ 	position: relative;
+}
+.font-awesome h3{
+	margin: 18px;
+	font-weight: 700;
+	font-size: 15px;
+}
+.font-awesome p{
+	width: 88%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 12px;
+	width: 60%;
+	margin-bottom: 30px;
+}
+    /*Showcase section*/
+.Showcase{
+    width: 100%;
+    float: left;
+	padding: 27px 0px;
+}
+.Showcase h2{
+	width: 60%;
+	text-align: center;
+	margin: 17px auto;
+	font-weight: 400;
+    font-size: 19px;
+    margin-top: 40px;
+}
+.Showcase p{
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 10px;
+	color: #b9baba;
+	margin-bottom: 60px;
+}
+.Showcase-one{
+	width: 33.3%;
+	float: left;
+}
+.Showcase-one img{
+	width: 95%;
+}
+.Showcase-two{
+	width: 33.3%;
+	float: left;
+}
+.Showcase-three{
+	width: 33.3%;
+	float: left;
+}
+.Showcase-four{
+	width: 33.3%;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 53px;  
+}
+.Showcase-five{
+	width: 33.3%;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 53px;
+}
+.Showcase-six{
+	width: 33.3%;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 53px;
+}
+    /*form section*/
+.stay{
+	width: 100%;
+	float: left;
+	padding: 27px 0px;
+	background: url(../img/02.jpg) no-repeat;
+	background-size: cover;
+}
+.stay-content h2{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 23px;
+	font-weight: 300;
+	font-size: 30px;
+	color: white;
+}
+.stay-content p{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 15px;
+	color: #8a8c8f;
+	margin-bottom: 15px;
+}
+.form{
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+}
+.form-conent{
+	width: 100%;
+	padding: 16px 10px;
+	margin: 8px;
+	background: #2b374b00;
+	border: 1px solid #9999
+}
+textarea {
+    width: 100%;
+    margin-top: 8px;
+    height: 120px;
+    padding: 12px;
+    padding-right: 9px;
+    margin-left: 9px;
+    background-color: transparent;
+}
+.form-two{
+	width: 100%;
+	float: left;
+	padding-bottom: 55px;
+}
+.diteals-one{
+	width: 44.5%;
+    float: left;
+    text-align: end;
+    margin: 15px;
+    margin-top: 31px;
+    color: white;
+}
+.diteals-two{
+	width: 36.5%;
+    float: left;
+    text-align: center;
+    margin: 15px;
+}
+button {
+    background: transparent;
+    padding: 7px 44px;
+    color: white;
+    font-size: 20px;
+    border-color: #15a4fa;
+}
+    /* Footer section*/
+.footer{
+	width: 100%;
+	float: left;
+	padding: 27px 0px;
+	background: 
+} 
+.footer-content{
+	width: 50%;
+	float: left;
+} 
+.footer-content p {
+    color: #999999;
+}
+.footer-logo{
+	width: 50%;
+    float: left;
+    text-align: end;
+} 
+.footer-logo ul{
+	list-style: none;
+}
+.footer-logo ul li{
+	display: inline-block;
+}
+.fa.fa-facebook {
+    color: white;
+    background: #15a4fa;
+    font-size: 15px;
+    padding: 7px 10px;
+}
+.fa.fa-twitter {
+    color: white;
+    background: #15a4fa;
+    font-size: 15px;
+    padding: 7px 10px;
+}
+.fa.fa-google-plus{
+    color: white;
+    background: #15a4fa;
+    font-size: 15px;
+    padding: 7px 10px;
+}
+.fa.fa-linkedin{
+    color: white;
+    background: #15a4fa;
+    font-size: 15px;
+    padding: 7px 10px;
+}
+
+
+
+
